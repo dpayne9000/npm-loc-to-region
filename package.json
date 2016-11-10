@@ -1,7 +1,7 @@
 {
   "name": "@haven/loc-to-region",
-  "version": "0.1.7",
-  "description": "A module for parsing localization files into front end changes via the router",
+  "version": "0.1.8",
+  "description": "A module for matching case sensitive associative arrays",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,18 +14,13 @@
     "localization",
     "router"
   ],
-  "dependencies": {
-  },
-  "author": {
-    "name": "Daniel Payne",
-    "email": "daniel@havenagency.com"
-  },
+  "dependencies": {},
+  "author": "Daniel Payne <daniel@havenagency.com>",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/haven_agency/npm-loc-to-region#readme",
-  "readme": " ",
-  "readmeFilename": "README.md",
-  "gitHead": "c4ebcb8e26166e8087ca0fa4d1c527a04168ee58",
-  "_id": "@haven/localized-router@0.1.7",
+  "homepage": "https://github.com/dpayne9000/npm-loc-to-region#readme",
   "_shasum": "cd39a275f17ff3865696b0d1316a687843720d8c",
-  "_from": "@haven/localized-router@0.1.7"
+  "_from": "@haven/localized-router@0.1.7",
+  "bugs": {
+    "url": "https://github.com/dpayne9000/npm-loc-to-region/issues"
+  }
 }
