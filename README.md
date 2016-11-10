@@ -4,23 +4,13 @@ name each sub-folder after a locale. Create one .properties file in each folder 
 
 To install in a project, run this command:
 
-    npm install @haven/localized-router --save
+    npm install @haven/loc-to-region --save
     
 Then put the code in your express router like this:
 
 
-    var localized = require('@haven/localized-router');
-
-    router.get('/home/:locale', function(req, res, next) {
-
-      var locdata = localized.getLocalization(req.params.locale);
-      res.render('index', { locale: locdata });
-    });
-    
-    
-Include it in the ejs view like this:
-
-    <%= locale._properties["project-name.page.title"] %>
+    var loc_region = require('@haven/loc-to-region');
+    var gtm_locale = loc_region.localeReplace(regions,req.params.locale);
     
 Express is not required.
 
