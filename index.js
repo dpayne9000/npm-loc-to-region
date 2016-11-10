@@ -1,20 +1,5 @@
 
 exports.localeReplace = function (localeRegions,locale) {
-    var localeRegions ={
-                                        'en-US': 'us',
-                                        'pt-BR': 'us',
-                                        'es-MX': 'us',
-                                        'ko-KR': 'kr',
-                                        'zh-TW': 'tw',
-                                        'zh-CN': 'cn',
-                                        'de-DE': 'eu',
-                                        'es-ES': 'eu',
-                                        'fr-FR': 'eu',
-                                        'it-IT': 'eu',
-                                        'pl-PL': 'eu',
-                                        'ja-JP': 'us',
-                                        'ru-RU': 'eu'
-                                    };
 
     var normalizedLocale = locale;
     var region, separator, language;

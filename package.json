@@ -1,6 +1,6 @@
 {
-  "name": "@haven/loc-to-region",
-  "version": "0.1.9",
+  "name": "loc-to-region",
+  "version": "0.1.1",
   "description": "A module for matching case sensitive associative arrays",
   "main": "index.js",
   "scripts": {
